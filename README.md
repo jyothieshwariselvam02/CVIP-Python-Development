@@ -1,2 +1,2 @@
 # CVIP-Python-Development
-Coders
+CodersCave Virtual Internship Opportunity - Python Development Domain
