@@ -12,10 +12,10 @@ def add_calculate(symbol):
 def evaluation_calculate():
     global calculate 
     try:
-        rslt = str(eval(calculate))
+        result = str(eval(calculate))
         calculate = ""
         text_result.delete(1.0, "end")
-        text_result.insert(1.0, rslt)
+        text_result.insert(1.0, result)
     except:
         clear_field()
         text_result.insert(1.0, "Error")
